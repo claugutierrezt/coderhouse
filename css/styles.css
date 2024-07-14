@@ -465,7 +465,7 @@ button.navbar-toggler {
 }
 
 @media (max-width:500px) {
-    .grid-container {
+    .grid-container2 {
         width: 100%;
         margin: 0px;
         grid-template-columns: auto;
@@ -479,7 +479,7 @@ button.navbar-toggler {
 }
 
 @media (max-width:500px) {
-    .grid-container img {
+    .grid-container2 img {
         width: 100%;
     }
 
