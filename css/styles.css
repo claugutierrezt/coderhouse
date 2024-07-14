@@ -416,22 +416,26 @@ button.navbar-toggler {
 }
 
 /*------ CONTACTO------- */
+/*------ CONTACTO------- */
 .form {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding: 10px;
     margin: 20px;
-
-
 }
 
 @media (max-width:500px) {
     .form {
         padding: 10px;
-        margin: 20px;
+    margin: 20px;
     }
 }
 
-
+.contacto {
+    display: flex;
+    justify-content:space-around; 
+    padding-left: 50px;
+    padding-top: 30px;
+}
 
 @media (max-width:500px) {
     .contacto {
@@ -442,47 +446,10 @@ button.navbar-toggler {
 }
 
 
-
-@media (max-width:500px) {
+@media (max-width:500px){
     .map {
         width: 200px;
     }
-}
-
-.grid-container2 {
-    width: 80%;
-    margin: auto;
-    padding: 20px;
-    color: #000;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    /*Habilitamos la grilla*/
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr ;
-    gap: 5px 5px;
-    grid-auto-flow: row;
-    background-color: #fff;
-    object-fit:cover;
-}
-
-@media (max-width:500px) {
-    .grid-container2 {
-        width: 100%;
-        margin: 0px;
-        grid-template-columns: auto;
-        object-fit: cover;
-        grid-template-areas:
-            "basic-page" "Informativa" "Estandar"
-            "Portal" "Portafolio" "Corporativa"
-
-
-    }
-}
-
-@media (max-width:500px) {
-    .grid-container2 img {
-        width: 100%;
-    }
-
 }
 
 
