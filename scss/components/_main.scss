@@ -11,21 +11,10 @@ main {
 
     /*animacion*/
 
-    .backhome {
-        animation-duration: 2s;
-        animation-name: aparecer;
-        animation-iteration-count: infinite;
+    .animation1 {
+        
     }
-        @keyframes aparecer {
-            0% {
-                opacity: 0;
-            }
 
-            100% {
-                opacity: 1;
-            }
-        }
-    }
 
     .backnous {
         background-color: #1AAE9F;
