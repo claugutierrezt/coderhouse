@@ -32,8 +32,10 @@ footer {
         padding: 5px;
     }
 
-    .footer-section {
-        background-color: #111;
+    footer .footer-section {
+        background-color: #222;
+        display: flex;
+        justify-content: space-between;
         color: #fff;
     }
 
