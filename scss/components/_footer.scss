@@ -1,42 +1,32 @@
 footer {
+    background-color: #222 !;
+    color: #fff;
+    padding: 20px;
+    color: #FFF;
 
-    footer {
-        background-color: #111111!important;
-        color: #fff;
-        padding: 20px;
-        color: #FFF;
-    
-    }
-    
-    footer {
-        background-color: #000;
-    }
-    
-    .footer-section {
-        display: flex;
-        justify-content: space-between;
-    
-    }
+}
 
-    .footer-left {
-        display: flex;
-        align-items: center;
-    }
-    
-    .footer-right {
-        display: flex;
-        align-items: center;
-    }
-    
-    .fb-icon {
-        padding: 5px;
-    }
+footer {
+    background-color: #000;
+}
 
-    .footer.section.footer-seccion {
-        background-color: #222;
-        display: flex;
-        justify-content: space-between;
-        color: #fff;
-    }
+.footer-section {
+    display: flex;
+    justify-content: space-between;
 
+}
+
+
+.footer-left {
+    display: flex;
+    align-items: center;
+}
+
+.footer-right {
+    display: flex;
+    align-items: center;
+}
+
+.fb-icon {
+    padding: 5px;
 }
