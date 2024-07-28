@@ -53,16 +53,15 @@
 
 /* botones del home*/
 
-
-@media (max-width:576px) {
-    body{
+body {
+    @media (max-width:576px) {
         .gris {
             display: flex;
             margin: 5px;
             background-color: #cdcdcd00;
         }
     }
-    
+
 }
 
 @media(max-width:576px) {
