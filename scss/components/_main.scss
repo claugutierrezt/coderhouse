@@ -62,7 +62,7 @@ main {
 /* botones del home*/
 @media (max-width:576px) {
     .gris {
-        display: inline;
+        flex-wrap: wrap;
         margin: 5px;
         background-color: #cdcdcd00;
     }
@@ -70,7 +70,7 @@ main {
 
 @media(max-width:576px) {
     .homeservicios {
-        display: inline;
+        flex-wrap: wrap;
         margin: 5px;
     }
 }
@@ -80,7 +80,8 @@ main {
 @media (max-width:576px) {
     .homeservicios {
         margin: 5px;
-        display: block !important;
+       /* display: block !important;*/
+        flex-wrap: wrap;  
 
     }
 }
@@ -163,7 +164,7 @@ main {
 }
 
 
-@media (max-width:576px){
+@media (max-width:576px) {
     .map {
         width: 200px;
     }
