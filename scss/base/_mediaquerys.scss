@@ -54,14 +54,13 @@
 /* botones del home*/
 
 body {
-    @media (max-width:576px) {
+    @media (max-width:500px) {
         .gris {
             display: flex;
             margin: 5px;
             background-color: #cdcdcd00;
         }
     }
-
 }
 
 @media(max-width:576px) {
