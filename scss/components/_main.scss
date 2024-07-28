@@ -62,7 +62,7 @@ main {
 /* botones del home*/
 @media (max-width:576px) {
     .gris {
-        display: flex;
+        display: inline;
         margin: 5px;
         background-color: #cdcdcd00;
     }
@@ -70,7 +70,7 @@ main {
 
 @media(max-width:576px) {
     .homeservicios {
-        display: flex;
+        display: inline;
         margin: 5px;
     }
 }
