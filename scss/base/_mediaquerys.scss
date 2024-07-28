@@ -22,13 +22,14 @@
 }
 
 /* botones del home*/
-@media (max-width:576px) {
+
+/*@media (max-width:576px) {
     .gris {
         display: flex;
         margin: 5px;
         background-color: #cdcdcd00;
     }
-}
+}*/
 
 @media(max-width:576px) {
     .homeservicios {
@@ -58,6 +59,7 @@
 
 /* GALERIA DEL HOME*/
 
+/*
 @media (max-width:500px) {
     .grid-container {
         width: 100%;
@@ -77,7 +79,30 @@
         width: 100%;
     }
 
+} */
+
+@media (max-width:500px) {
+    .grid-container {
+        width: 100%;
+        margin: 0px;
+        grid-template-columns: auto;
+        object-fit: cover;
+        grid-template-areas:
+            "basic-page" "Informativa" "Estandar"
+            "Portal" "Portafolio" "Corporativa"
+
+
+    }
 }
+
+@media (max-width:500px) {
+    .grid-container img {
+        width: 100%;
+    }
+
+}
+
+
 
 
 
