@@ -1,13 +1,42 @@
 /*--------------- HEADER ----------------*/
 
+header {
+
+    @media (max-width:500px) {
+        header img {
+            width: 80%;
+        }
+    }
+
+    @media (max-width:576px) {
+        .backhome {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 15px;
+            font-weight: 700;
+            text-align: center;
+            padding: 50px;
+            height: 250px;
+        }
+
+
+    }
+
+
+}
+
+/*
 @media (max-width:500px) {
     header img {
         width: 80%;
     }
 }
 
+*/
+
 /* --------------- HOME ----------------*/
 
+
+/*
 @media (max-width:576px) {
     .backhome {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -20,6 +49,8 @@
 
 
 }
+
+*/
 
 /* botones del home*/
 
@@ -79,7 +110,7 @@
         width: 100%;
     }
 
-} 
+}
 
 
 /*NOSOTROS*/
@@ -96,66 +127,66 @@
     }
 
 
-@media (max-width:576px) {
-    .nosotros img {
-        width: 70%;
-    }
-}
-
-
-/*SERVICIOS*/
-
-@media (max-width:576px) {
-    .backserv {
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        font-size: 18px;
-        font-weight: 700;
-        text-align: center;
-        padding: 50px;
-        height: 250px;
+    @media (max-width:576px) {
+        .nosotros img {
+            width: 70%;
+        }
     }
 
-}
 
-@media (max-width:576px) {
-    .gris img {
-        padding-top: 20px;
-        padding-bottom: 20px;
+    /*SERVICIOS*/
+
+    @media (max-width:576px) {
+        .backserv {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 18px;
+            font-weight: 700;
+            text-align: center;
+            padding: 50px;
+            height: 250px;
+        }
+
     }
 
-}
+    @media (max-width:576px) {
+        .gris img {
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
 
-/* CONTACTO*/
-
-@media (max-width:576px) {
-    .contacto {
-        padding: 20px;
-        margin: 20px;
-        flex-wrap: wrap;
     }
-}
 
+    /* CONTACTO*/
 
-@media (max-width:576px){
-    .map {
-        width: 200px;
+    @media (max-width:576px) {
+        .contacto {
+            padding: 20px;
+            margin: 20px;
+            flex-wrap: wrap;
+        }
     }
-}
 
-/*FAQ*/
 
-@media (max-width:500px) {
-    .faq {
-        padding: 10px;
-        margin: 10px;
+    @media (max-width:576px) {
+        .map {
+            width: 200px;
+        }
     }
-}
 
-/* FOOTER */
-@media (max-width:500px) {
-    .footer-section {
-        display: block;
+    /*FAQ*/
+
+    @media (max-width:500px) {
+        .faq {
+            padding: 10px;
+            margin: 10px;
+        }
     }
-}
+
+    /* FOOTER */
+    @media (max-width:500px) {
+        .footer-section {
+            display: block;
+        }
+    }
 
 }
