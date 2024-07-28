@@ -303,29 +303,11 @@ footer {
     flex-direction: column;
     margin: 5px;
   }
-}
-@media (max-width: 576px) {
-  .homeservicios {
-    display: flex;
+  body .homeservicios {
+    display: block;
     margin: 5px;
   }
-}
-/*HOME SERVICIOS*/
-@media (max-width: 500px) {
-  .homeservicios {
-    margin: 5px;
-    display: block !important;
-  }
-}
-@media (max-width: 500px) {
-  .homeservicios {
-    display: inline;
-    margin: 5px;
-  }
-}
-/* GALERIA DEL HOME*/
-@media (max-width: 500px) {
-  .grid-container {
+  body .grid-container {
     width: 100%;
     margin: 0px;
     grid-template-columns: auto;
@@ -333,7 +315,24 @@ footer {
        object-fit: cover;
     grid-template-areas: "basic-page" "Informativa" "Estandar" "Portal" "Portafolio" "Corporativa";
   }
+  body .grid-container img {
+    width: 100%;
+  }
 }
+/* GALERIA DEL HOME*/
+/*@media (max-width:500px) {
+    .grid-container {
+        width: 100%;
+        margin: 0px;
+        grid-template-columns: auto;
+        object-fit: cover;
+        grid-template-areas:
+            "basic-page" "Informativa" "Estandar"
+            "Portal" "Portafolio" "Corporativa"
+
+
+    }
+}*/
 @media (max-width: 576px) {
   .grid-container img {
     width: 100%;
