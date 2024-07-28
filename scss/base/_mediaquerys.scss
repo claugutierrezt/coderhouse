@@ -9,7 +9,7 @@
 /* HOME */
 @media (max-width:576px) {
     .backhome {
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size: 15px;
         font-weight: 700;
         text-align: center;
@@ -31,7 +31,8 @@
 
 @media(max-width:576px) {
     .homeservicios {
-        display: flex;
+        /*display: flex;*/
+        display: inline;
         margin: 5px;
     }
 }
