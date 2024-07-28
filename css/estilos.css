@@ -281,12 +281,12 @@ footer {
 }
 
 /*--------------- HEADER ----------------*/
-@media (max-width: 575px) {
+@media (max-width: 576px) {
   header img {
     width: 80%;
   }
 }
-@media (max-width: 576px) {
+@media (max-width: 575px) {
   main .backhome {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 15px;
