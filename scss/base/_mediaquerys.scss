@@ -28,13 +28,10 @@
 @media (max-width:576px) {
     body {
         .gris {
-            display: flex;
+            flex-direction: column;
             margin: 5px;
-            background-color: #cdcdcd00;
         }
-
     }
-
 }
 
 

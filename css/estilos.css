@@ -300,9 +300,8 @@ footer {
 /* botones del home*/
 @media (max-width: 576px) {
   body .gris {
-    display: flex;
+    flex-direction: column;
     margin: 5px;
-    background-color: rgba(205, 205, 205, 0);
   }
 }
 @media (max-width: 576px) {
