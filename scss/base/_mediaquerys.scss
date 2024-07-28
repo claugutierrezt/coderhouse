@@ -6,7 +6,7 @@
     }
 }
 
-
+/* --------------- HOME ----------------*/
 
 @media (max-width:575px) {
     main {
@@ -23,45 +23,20 @@
 }
 
 
-/*
-@media (max-width:500px) {
-    header img {
-        width: 80%;
-    }
-}
-
-*/
-
-/* --------------- HOME ----------------*/
-
-
-/*
-@media (max-width:576px) {
-    .backhome {
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 15px;
-        font-weight: 700;
-        text-align: center;
-        padding: 50px;
-        height: 250px;
-    }
-
-
-}
-
-*/
-
 /* botones del home*/
 
-body {
-    @media (max-width:500px) {
+@media (max-width:576px) {
+    body {
         .gris {
             display: flex;
             margin: 5px;
             background-color: #cdcdcd00;
         }
+
     }
+
 }
+
 
 @media(max-width:576px) {
     .homeservicios {
