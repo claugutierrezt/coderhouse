@@ -281,7 +281,7 @@ footer {
 }
 
 /*--------------- HEADER ----------------*/
-@media (max-width: 576px) {
+@media (max-width: 575px) {
   header img {
     width: 80%;
   }
