@@ -25,7 +25,7 @@
 
 /* botones del home*/
 
-@media (max-width:576px) {
+@media (max-width:575px) {
     body {
         .gris {
             flex-direction: column;
@@ -45,6 +45,7 @@
             grid-template-areas:
                 "basic-page" "Informativa" "Estandar"
                 "Portal" "Portafolio" "Corporativa";
+
             img {
                 width: 100%;
             }
@@ -54,23 +55,6 @@
 
 }
 
-
-/* GALERIA DEL HOME*/
-
-
-/*@media (max-width:500px) {
-    .grid-container {
-        width: 100%;
-        margin: 0px;
-        grid-template-columns: auto;
-        object-fit: cover;
-        grid-template-areas:
-            "basic-page" "Informativa" "Estandar"
-            "Portal" "Portafolio" "Corporativa"
-
-
-    }
-}*/
 
 @media (max-width:576px) {
     .grid-container img {
@@ -82,9 +66,32 @@
 
 /*NOSOTROS*/
 
+@media (max-width:576px) {
+    main {
+        .backnous {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 18px;
+            font-weight: 700;
+            text-align: center;
+            padding: 50px;
+            height: 250px;
+        }
+    }
 
-@media (max-width:500px) {
-    .backnous {
+}
+
+@media (max-width:576px){
+        body {
+            .nosotros img {
+                width: 70%;
+            }
+        }
+}
+
+/*SERVICIOS*/
+
+@media (max-width:576px) {
+    .backserv {
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         font-size: 18px;
         font-weight: 700;
@@ -93,67 +100,47 @@
         height: 250px;
     }
 
+}
 
-    @media (max-width:576px) {
-        .nosotros img {
-            width: 70%;
-        }
+@media (max-width:576px) {
+    .gris img {
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 
+}
 
-    /*SERVICIOS*/
+/* CONTACTO*/
 
-    @media (max-width:576px) {
-        .backserv {
-            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-            font-size: 18px;
-            font-weight: 700;
-            text-align: center;
-            padding: 50px;
-            height: 250px;
-        }
-
+@media (max-width:576px) {
+    .contacto {
+        padding: 20px;
+        margin: 20px;
+        flex-wrap: wrap;
     }
+}
 
-    @media (max-width:576px) {
-        .gris img {
-            padding-top: 20px;
-            padding-bottom: 20px;
-        }
 
+@media (max-width:576px) {
+    .map {
+        width: 200px;
     }
+}
 
-    /* CONTACTO*/
+/*FAQ*/
 
-    @media (max-width:576px) {
-        .contacto {
-            padding: 20px;
-            margin: 20px;
-            flex-wrap: wrap;
-        }
+@media (max-width:500px) {
+    .faq {
+        padding: 10px;
+        margin: 10px;
     }
+}
 
-
-    @media (max-width:576px) {
-        .map {
-            width: 200px;
-        }
+/* FOOTER */
+@media (max-width:500px) {
+    .footer-section {
+        display: block;
     }
-
-    /*FAQ*/
-
-    @media (max-width:500px) {
-        .faq {
-            padding: 10px;
-            margin: 10px;
-        }
-    }
-
-    /* FOOTER */
-    @media (max-width:500px) {
-        .footer-section {
-            display: block;
-        }
-    }
+}
 
 }

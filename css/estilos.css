@@ -298,7 +298,7 @@ footer {
   }
 }
 /* botones del home*/
-@media (max-width: 576px) {
+@media (max-width: 575px) {
   body .gris {
     flex-direction: column;
     margin: 5px;
