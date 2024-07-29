@@ -55,7 +55,7 @@ button.navbar-toggler {
 
 /*-----------BODY-------------*/
 
-body{
+body {
 
     .tsecciones {
         padding: 25px;
@@ -68,7 +68,7 @@ body{
         display: flex;
         justify-content: space-between;
         align-items: center;
-    
+
     }
 
     .primary-button {
@@ -81,13 +81,13 @@ body{
         border-color: #1AAE9F;
         display: flex;
         margin-right: 5px;
-    
+
     }
 
     .primary-button:hover {
         transform: scale(1.2);
-      }
-    
+    }
+
     .secondary-button {
         color: #1AAE9F;
         background-color: #ffffff;
@@ -104,23 +104,23 @@ body{
         justify-content: space-around;
         align-items: center;
     }
-    
+
     .gris-content {
         padding-left: 20px;
     }
-    
+
     .gris-content h3 {
         padding-bottom: 10px;
     }
-    
+
     .gris-content h2 {
         padding-bottom: 15px;
     }
-    
+
     .gris-content p {
         padding-bottom: 20px;
     }
-    
+
     .buttons-content {
         display: flex;
     }
@@ -129,10 +129,10 @@ body{
         text-align: center;
         padding: 20px;
         background-color: #1AAE9F;
-    
+
     }
-    
-    
+
+
     .grid-container {
         width: 80%;
         margin: auto;
@@ -151,6 +151,7 @@ body{
         background-color: #fff;
         object-fit: cover;
     }
+
     .basic-page {
         grid-area: basic-page;
         background-color: #fff;
@@ -160,9 +161,9 @@ body{
         font-weight: 600;
         font-size: 20px;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    
+
     }
-    
+
     .Informativa {
         grid-area: Informativa;
         background-color: #fff;
@@ -172,7 +173,7 @@ body{
         font-size: 20px;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
-    
+
     .Portal {
         grid-area: Portal;
         background-color: #fff;
@@ -182,7 +183,7 @@ body{
         font-size: 20px;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
-    
+
     .Estandar {
         grid-area: Estandar;
         background-color: #ffffff;
@@ -192,7 +193,7 @@ body{
         font-size: 20px;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
-    
+
     .Portafolio {
         grid-area: Portafolio;
         background-color: #fff;
@@ -202,7 +203,7 @@ body{
         font-size: 20px;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
-    
+
     .Corporativa {
         grid-area: Corporativa;
         background-color: #fff;
@@ -217,8 +218,8 @@ body{
         margin: auto;
         padding: 30px;
     }
-    
-    
+
+
     .nosotros-text {
         margin: 30px;
     }
@@ -226,6 +227,7 @@ body{
     .section div .gris-content {
         display: inline
     }
+
     .final {
         display: flex;
         justify-content: center;
@@ -241,7 +243,7 @@ body{
 
     .contacto {
         display: flex;
-        justify-content:space-around; 
+        justify-content: space-around;
         padding-left: 50px;
         padding-top: 30px;
     }
