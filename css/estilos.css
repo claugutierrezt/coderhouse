@@ -94,6 +94,9 @@ body .gris {
   justify-content: space-around;
   align-items: center;
 }
+body .gris img:hover {
+  transform: scale(1.2);
+}
 body .gris-content {
   padding-left: 20px;
 }

@@ -109,6 +109,11 @@ body {
         align-items: center;
     }
 
+    .gris img:hover {
+        transform: scale(1.2);
+
+    }
+
     .gris-content {
         padding-left: 20px;
     }
