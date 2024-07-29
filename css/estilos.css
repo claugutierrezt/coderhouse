@@ -73,6 +73,9 @@ body .primary-button {
   display: flex;
   margin-right: 5px;
 }
+body .primary-button:hover {
+  transform: scale(1.2);
+}
 body .secondary-button {
   color: #1AAE9F;
   background-color: #ffffff;
