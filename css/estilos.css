@@ -348,21 +348,8 @@ footer {
     width: 70%;
   }
 }
-/*SERVICIOS*/
-/*
-@media (max-width:576px) {
-    .backserv {
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        font-size: 18px;
-        font-weight: 700;
-        text-align: center;
-        padding: 50px;
-        height: 250px;
-    }
-
-}*/
 @media (max-width: 576px) {
-  .gris img {
+  body .gris img {
     padding-top: 20px;
     padding-bottom: 20px;
   }
@@ -376,7 +363,7 @@ footer {
   }
 }
 @media (max-width: 576px) {
-  .map {
+  body .map {
     width: 200px;
   }
 }
