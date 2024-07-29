@@ -90,12 +90,12 @@
 
 }
 
-@media (max-width:576px){
-        body {
-            .nosotros img {
-                width: 70%;
-            }
+@media (max-width:576px) {
+    body {
+        .nosotros img {
+            width: 70%;
         }
+    }
 }
 
 /*SERVICIOS*/
@@ -142,17 +142,18 @@
 /*FAQ*/
 
 @media (max-width:500px) {
-    .faq {
-        padding: 10px;
-        margin: 10px;
+    body {
+        .faq {
+            padding: 10px;
+            margin: 10px;
+        }
     }
 }
+
 
 /* FOOTER */
 @media (max-width:500px) {
     .footer-section {
         display: block;
     }
-}
-
 }
