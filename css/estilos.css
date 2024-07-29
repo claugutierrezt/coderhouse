@@ -85,7 +85,7 @@ body .secondary-button {
   border-color: #ffffff;
 }
 body .secondary-button:hover {
-  transform: scale(1.2);
+  transform: scale(1.3);
 }
 body .gris {
   background-color: #e9e9e9;
