@@ -386,7 +386,6 @@ footer {
   body .map {
     flex-direction: column;
     padding-top: 30px;
-    width: 200px;
   }
 }
 @media (max-width: 575px) and (max-width: 575px) {
