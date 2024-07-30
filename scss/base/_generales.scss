@@ -111,9 +111,7 @@ body {
 
     .gris img {
         transition: transform 0.2s ease;
-
-        &:hover {
-            transform: scale(1.2);
+        &:hover { transform: scale(1.2);
         }
     }
 
