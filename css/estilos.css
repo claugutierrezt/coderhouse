@@ -386,6 +386,11 @@ footer {
     display: none;
   }
 }
+@media (max-width: 575px) and (max-width: 575px) {
+  body ul.list-group {
+    padding-top: 20px;
+  }
+}
 /*FAQ*/
 @media (max-width: 500px) {
   body .faq {

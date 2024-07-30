@@ -100,14 +100,14 @@
 }
 
 
-@media (max-width:576px){
-    body{
+@media (max-width:576px) {
+    body {
         .gris img {
             padding-top: 20px;
             padding-bottom: 20px;
         }
     }
-} 
+}
 
 /* CONTACTO*/
 
@@ -122,32 +122,37 @@
 
 @media (max-width:575px) {
     body {
-    .map {
-        display: none;
+        .map {
+            display: none;
 
+        }
     }
-}
-}
 
-
-
-
-
-/*FAQ*/
-
-@media (max-width:500px) {
-    body {
-        .faq {
-            padding: 10px;
-            margin: 10px;
+    @media (max-width:575px) {
+        body {
+            ul.list-group {
+                padding-top: 20px;
+            }
         }
     }
 }
 
 
-/* FOOTER */
-@media (max-width:500px) {
-    .footer-section {
-        display: block;
+    /*FAQ*/
+
+    @media (max-width:500px) {
+        body {
+            .faq {
+                padding: 10px;
+                margin: 10px;
+            }
+        }
     }
-}
+
+
+    /* FOOTER */
+    @media (max-width:500px) {
+        .footer-section {
+            display: block;
+        }
+    }
