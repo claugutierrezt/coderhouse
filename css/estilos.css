@@ -94,37 +94,33 @@ body .gris {
   justify-content: space-around;
   align-items: center;
 }
+body .gris img {
+  transition: transform 0.2s ease;
+}
 body .gris img:hover {
   transform: scale(1.2);
 }
-
-.gris-content {
+body .gris-content {
   padding-left: 20px;
 }
-
-.gris-content h3 {
+body .gris-content h3 {
   padding-bottom: 10px;
 }
-
-.gris-content h2 {
+body .gris-content h2 {
   padding-bottom: 15px;
 }
-
-.gris-content p {
+body .gris-content p {
   padding-bottom: 20px;
 }
-
-.buttons-content {
+body .buttons-content {
   display: flex;
 }
-
-.title-galeria {
+body .title-galeria {
   text-align: center;
   padding: 20px;
   background-color: #1AAE9F;
 }
-
-.grid-container {
+body .grid-container {
   width: 80%;
   margin: auto;
   padding: 20px;
@@ -141,8 +137,7 @@ body .gris img:hover {
   -o-object-fit: cover;
      object-fit: cover;
 }
-
-.basic-page {
+body .basic-page {
   grid-area: basic-page;
   background-color: #fff;
   color: #000;
@@ -152,8 +147,7 @@ body .gris img:hover {
   font-size: 20px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
-
-.Informativa {
+body .Informativa {
   grid-area: Informativa;
   background-color: #fff;
   text-align: center;
@@ -162,8 +156,7 @@ body .gris img:hover {
   font-size: 20px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
-
-.Portal {
+body .Portal {
   grid-area: Portal;
   background-color: #fff;
   text-align: center;
@@ -172,8 +165,7 @@ body .gris img:hover {
   font-size: 20px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
-
-.Estandar {
+body .Estandar {
   grid-area: Estandar;
   background-color: #ffffff;
   text-align: center;
@@ -182,8 +174,7 @@ body .gris img:hover {
   font-size: 20px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
-
-.Portafolio {
+body .Portafolio {
   grid-area: Portafolio;
   background-color: #fff;
   text-align: center;
@@ -192,8 +183,7 @@ body .gris img:hover {
   font-size: 20px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
-
-.Corporativa {
+body .Corporativa {
   grid-area: Corporativa;
   background-color: #fff;
   text-align: center;
@@ -202,48 +192,40 @@ body .gris img:hover {
   font-size: 20px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
-
-.nosotros {
+body .nosotros {
   margin: auto;
   padding: 30px;
 }
-
-.nosotros img {
+body .nosotros img {
   transition: transform 0.2s ease;
 }
-.nosotros img:hover {
+body .nosotros img:hover {
   transform: scale(1.2);
 }
-
-.nosotros-text {
+body .nosotros-text {
   margin: 30px;
 }
-
-.section div .gris-content {
+body .section div .gris-content {
   display: inline;
 }
-
-.final {
+body .final {
   display: flex;
   justify-content: center;
   padding: 50px;
   background-color: #ebebeb;
 }
-
-.form {
+body .form {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   padding: 10px;
   margin: 20px;
 }
-
-.contacto {
+body .contacto {
   display: flex;
   justify-content: space-around;
   padding-left: 50px;
   padding-top: 30px;
 }
-
-.faq {
+body .faq {
   padding: 50px;
   margin: 50px;
 }

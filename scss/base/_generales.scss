@@ -109,10 +109,12 @@ body {
         align-items: center;
     }
 
-    .gris img:hover {
+    .gris img {
+        transition: transform 0.2s ease;
+
+        &:hover {
             transform: scale(1.2);
         }
-
     }
 
     .gris-content {
@@ -229,11 +231,14 @@ body {
         padding: 30px;
     }
 
-    .nosotros img{ 
+    .nosotros img {
         transition: transform 0.2s ease;
-        &:hover{transform: scale(1.2);}
+
+        &:hover {
+            transform: scale(1.2);
         }
-    
+    }
+
 
     .nosotros-text {
         margin: 30px;
@@ -267,3 +272,4 @@ body {
         padding: 50px;
         margin: 50px;
     }
+}
