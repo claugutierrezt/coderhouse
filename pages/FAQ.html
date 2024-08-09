@@ -76,56 +76,131 @@
     <body>
         <section class="faq">
             <H2>Base de conocimiento</H2>
-            <ul>
-                <li>
-                    <h3>¿Cuál es la diferencia entre una página web estática y una dinámica?</h3>
-                    <p>Una página web estática muestra el mismo contenido a todos los visitantes y es ideal para sitios
-                        con información que no cambia frecuentemente, como portafolios o páginas informativas. Una
-                        página web dinámica, en cambio, puede mostrar contenido diferente basado en interacciones del
-                        usuario o datos en tiempo real, lo cual es ideal para blogs, tiendas en línea, y sitios con
-                        bases de datos.</p>
-                </li>
-                <li>
-                    <h3>¿Qué tipo de página web necesito si quiero vender productos en línea?</h3>
-                    <p>Para vender productos en línea, necesitas un sitio de comercio electrónico. Este tipo de página
-                        web incluye características esenciales como catálogos de productos, carrito de compras,
-                        procesamiento de pagos, y gestión de inventarios. Plataformas populares para comercio
-                        electrónico incluyen Shopify, WooCommerce y Magento.</p>
-                </li>
-                <li>
-                    <h3>¿Por qué es importante que mi sitio web sea accesible?</h3>
-                    <p>La accesibilidad web es crucial porque garantiza que todas las personas, incluidas aquellas con
-                        discapacidades, puedan acceder y utilizar tu sitio web de manera efectiva. Esto no solo amplía
-                        tu audiencia potencial, sino que también cumple con las leyes y normativas de accesibilidad,
-                        evitando posibles problemas legales. Además, un sitio accesible mejora la experiencia del
-                        usuario en general, ya que tiende a ser más fácil de navegar y entender. Implementar
-                        accesibilidad puede también mejorar tu SEO, ya que muchos principios de accesibilidad, como el
-                        uso adecuado de etiquetas y descripciones, coinciden con las mejores prácticas de optimización
-                        para motores de búsqueda.</p>
-                </li>
-                <li>
-                    <h3>¿Necesito un blog en mi página web?</h3>
-                    <p>Tener un blog en tu página web es muy beneficioso si deseas mejorar tu SEO, compartir
-                        conocimientos y establecerte como una autoridad en tu campo. Un blog puede atraer tráfico
-                        orgánico a tu sitio, mantener a los visitantes comprometidos, y ofrecer contenido fresco y
-                        relevante que responda a las necesidades e intereses de tus clientes potenciales.</p>
-                </li>
-            </ul>
-        </section>
-        <footer>
-            <section class="footer-section">
-                <div class="footer-left">
-                    <a class="fb-icon" href="https://www.facebook.com/claudiagutierrezweb" target="_blank"><img
-                            src="../img/fb.png"></a>
-                    <a href="https://www.linkedin.com/in/claudiagutierreztamez/" target="_blank"><img
-                            src="../img/in.png"></a>
-                </div>
-                <div class="footer-right">
-                    <p>Desarrollo: Claudia Gutiérrez 2024 </p>
-                    <a href="https://rehileteproyectos.com/" target="_blank"><img src="../img/rehilete.png"></a>
+            <section>
+                <div id="accordion">
+                    <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne"
+                                    aria-expanded="true" aria-controls="collapseOne">
+                                    ¿Cuál es la diferencia entre una página web estática y una dinámica?
+                                </button>
+                            </h5>
+                        </div>
+
+                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                            data-parent="#accordion">
+                            <div class="card-body">
+                                Una página web estática muestra el mismo contenido a todos los visitantes y es ideal
+                                para sitios con información que no cambia frecuentemente, como portafolios o páginas
+                                informativas. Una página web dinámica, en cambio, puede mostrar contenido diferente
+                                basado en interacciones del usuario o datos en tiempo real, lo cual es ideal para blogs,
+                                tiendas en línea, y sitios con bases de datos.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingTwo">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo"
+                                    aria-expanded="false" aria-controls="collapseTwo">
+                                    ¿Qué tipo de página web necesito si quiero vender productos en línea?
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                            <div class="card-body">
+                                Para vender productos en línea, necesitas un sitio de comercio electrónico. Este tipo de
+                                página web incluye características esenciales como catálogos de productos, carrito de
+                                compras, procesamiento de pagos, y gestión de inventarios. Plataformas populares para
+                                comercio electrónico incluyen Shopify, WooCommerce y Magento.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingThree">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" data-toggle="collapse"
+                                    data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    ¿Por qué es importante que mi sitio web sea accesible?
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                            data-parent="#accordion">
+                            <div class="card-body">
+                                La accesibilidad web es crucial porque garantiza que todas las personas, incluidas
+                                aquellas con discapacidades, puedan acceder y utilizar tu sitio web de manera efectiva.
+                                Esto no solo amplía tu audiencia potencial, sino que también cumple con las leyes y
+                                normativas de accesibilidad, evitando posibles problemas legales. Además, un sitio
+                                accesible mejora la experiencia del usuario en general, ya que tiende a ser más fácil de
+                                navegar y entender. Implementar accesibilidad puede también mejorar tu SEO, ya que
+                                muchos principios de accesibilidad, como el uso adecuado de etiquetas y descripciones,
+                                coinciden con las mejores prácticas de optimización para motores de búsqueda.
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
-        </footer>
+            <section class="faq">
+                <H2>Base de conocimiento</H2>
+                <ul>
+                    <li>
+                        <h3>¿Cuál es la diferencia entre una página web estática y una dinámica?</h3>
+                        <p>Una página web estática muestra el mismo contenido a todos los visitantes y es ideal para
+                            sitios
+                            con información que no cambia frecuentemente, como portafolios o páginas informativas. Una
+                            página web dinámica, en cambio, puede mostrar contenido diferente basado en interacciones
+                            del
+                            usuario o datos en tiempo real, lo cual es ideal para blogs, tiendas en línea, y sitios con
+                            bases de datos.</p>
+                    </li>
+                    <li>
+                        <h3>¿Qué tipo de página web necesito si quiero vender productos en línea?</h3>
+                        <p>Para vender productos en línea, necesitas un sitio de comercio electrónico. Este tipo de
+                            página
+                            web incluye características esenciales como catálogos de productos, carrito de compras,
+                            procesamiento de pagos, y gestión de inventarios. Plataformas populares para comercio
+                            electrónico incluyen Shopify, WooCommerce y Magento.</p>
+                    </li>
+                    <li>
+                        <h3>¿Por qué es importante que mi sitio web sea accesible?</h3>
+                        <p>La accesibilidad web es crucial porque garantiza que todas las personas, incluidas aquellas
+                            con
+                            discapacidades, puedan acceder y utilizar tu sitio web de manera efectiva. Esto no solo
+                            amplía
+                            tu audiencia potencial, sino que también cumple con las leyes y normativas de accesibilidad,
+                            evitando posibles problemas legales. Además, un sitio accesible mejora la experiencia del
+                            usuario en general, ya que tiende a ser más fácil de navegar y entender. Implementar
+                            accesibilidad puede también mejorar tu SEO, ya que muchos principios de accesibilidad, como
+                            el
+                            uso adecuado de etiquetas y descripciones, coinciden con las mejores prácticas de
+                            optimización
+                            para motores de búsqueda.</p>
+                    </li>
+                    <li>
+                        <h3>¿Necesito un blog en mi página web?</h3>
+                        <p>Tener un blog en tu página web es muy beneficioso si deseas mejorar tu SEO, compartir
+                            conocimientos y establecerte como una autoridad en tu campo. Un blog puede atraer tráfico
+                            orgánico a tu sitio, mantener a los visitantes comprometidos, y ofrecer contenido fresco y
+                            relevante que responda a las necesidades e intereses de tus clientes potenciales.</p>
+                    </li>
+                </ul>
+            </section>
+            <footer>
+                <section class="footer-section">
+                    <div class="footer-left">
+                        <a class="fb-icon" href="https://www.facebook.com/claudiagutierrezweb" target="_blank"><img
+                                src="../img/fb.png"></a>
+                        <a href="https://www.linkedin.com/in/claudiagutierreztamez/" target="_blank"><img
+                                src="../img/in.png"></a>
+                    </div>
+                    <div class="footer-right">
+                        <p>Desarrollo: Claudia Gutiérrez 2024 </p>
+                        <a href="https://rehileteproyectos.com/" target="_blank"><img src="../img/rehilete.png"></a>
+                    </div>
+                </section>
+            </footer>
     </body>
 
 </html>
