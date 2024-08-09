@@ -221,7 +221,7 @@ body .form {
 }
 body .contacto {
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
   padding-left: 50px;
   padding-top: 30px;
   padding-bottom: 30px;
