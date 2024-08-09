@@ -32,6 +32,7 @@
     <link rel="icon" type="../img/favicon.png" href="../img/favicon.png" />
     <title>Desarrollo Web | Claudia Gutiérrez</title>
 </head>
+
 <body>
     <header>
         <img src="../img/logo.png">
@@ -68,47 +69,22 @@
         <section class="contacto">
             <div>
                 <h3>Envíanos un mensaje</h3>
-                <form class="needs-validation" novalidate>
-                    <div class="form-row">
-                        <div class="col-md-4 mb-3">
-                            <label for="validationTooltip01">Nombre</label>
-                            <input type="text" class="form-control" id="nombre" value="" required>
-                            <div class="valid-tooltip">
-                                Looks good!
-                            </div>
-                        </div>
-                        <div class="col-md-4 mb-3">
-                            <label for="validationTooltip02">Apellido</label>
-                            <input type="text" class="form-control" id="validationTooltip02" value="" required>
-                            <div class="valid-tooltip">
-                                Looks good!
-                            </div>
-                        </div>
-                        <div class="col-md-5 mb-3">
-                            <label for="validationTooltip02">Email</label>
-                            <input type="text" class="form-control" id="validationTooltip03" value="" required>
-                            <div class="valid-tooltip">
-                                Looks good!
-                            </div>
-                        </div>
-                    </div>
-                    <div class="form-row">
-                        <div class="col-md-6 mb-3">
-                            <label for="validationTooltip04">Ciudad</label>
-                            <input type="text" class="form-control" id="validationTooltip03" required>
-                            <div class="invalid-tooltip">
-                                Escribe tu ciudad
-                            </div>
-                        </div>
+                <form>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                            placeholder="Enter email">
+                        <small id="emailHelp" class="form-text text-muted">No compartiremos tus datos</small>
                     </div>
                     <div class="form-group">
-                        <label for="validationTooltip05">Comentarios</label>
-                        <input type="text-area" class="form-control" id="comentarios" value="" required>
-                        <div class="valid-tooltip">
-                        </div>
+                        <label for="exampleInputPassword1">Nombre</label>
+                        <input type="text" class="form-control" id="exampleInputname" placeholder="Nombre">
                     </div>
-                    <div><br></div>
-                    <button class="btn btn-primary" type="submit">Envia tus datos</button>
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
                 </form>
             </div>
             <div class="map">
@@ -127,6 +103,7 @@
                 </ul>
             </div>
         </section>
-    </footer>
+        </footer>
 </body>
+
 </html>
